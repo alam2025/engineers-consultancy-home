@@ -1,0 +1,166 @@
+/* utilities added  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500;700&family=Work+Sans:wght@900&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "poppins", sans-serif;
+    /* font-family: 'Work Sans', sans-serif; */
+
+
+}
+
+.section-header {
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 53px;
+}
+
+.description {
+    margin: 10px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+/* --------------------------------button styles ----------------------------- */
+.btn-primary {
+    background-color: #FF900E;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 21px 30px;
+    margin: 50px;
+}
+
+.btn-experience {
+    background-color: #FF900E;
+    padding: 40px 40px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+/* -------------------------------------------------
+header styes 
+------------------------------------------------- */
+
+header {
+    background-color: #e7800b2a;
+
+}
+
+/* ------------------------header details--------------------------  */
+
+.header-details {
+    padding: 20px 20%;
+
+    text-align: center;
+}
+
+.header-title {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 53px;
+    color: #131313;
+
+}
+
+
+
+/*----------------- banner style ------------ */
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+
+}
+
+.banner>img {
+    max-width: 100%;
+    padding-bottom: 5%;
+
+}
+
+
+/* ------------------------------------------------------------------------
+main section styles -
+--------------------------------------------------------------*/
+main {}
+
+/* -------------------quick features styles  */
+.quick-feature {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.colaborate-work {
+    max-width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 25px;
+    grid-row-gap: 15px;
+}
+
+.works>img {
+    max-width: 100%;
+}
+
+.connect-with-feature {
+    max-width: 50%;
+
+}
+
+/* -------------------feature lists style -------------------- */
+.feature-section {
+    margin-top: 100px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-header {
+    border-left: 4px solid #FF900E;
+    font-size: 2rem;
+    padding: 10px;
+
+}
+
+.feature-list {
+    flex: 1;
+}
+
+.feature {
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.feature-side-image {
+    flex: 1;
+}
+
+.feature-side-image>img {
+    width: 100%;
+}
+
+.btn-experience>span {
+    
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 70px;
+
+    text-align: center;
+
+
+}
