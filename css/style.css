@@ -1,17 +1,18 @@
 /* utilities added  */
+/* utilities added  */
+/* utilities added  */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500;700&family=Work+Sans:wght@900&display=swap');
 
 
-
+/* common features  */
+/* common features  */
+/* common features  */
 * {
     margin: 0;
 }
 
 body {
     font-family: "poppins", sans-serif;
-    /* font-family: 'Work Sans', sans-serif; */
-
-
 }
 
 .container {
@@ -31,6 +32,10 @@ body {
     font-size: 2.7rem;
     line-height: 53px;
 }
+.title{
+    text-align: center;
+    font-size: 2.4rem;
+}
 
 .description {
     margin: 10px 0;
@@ -40,7 +45,8 @@ body {
     color: #727272;
 }
 
-/* --------------------------------button styles ----------------------------- */
+/* -------------button styles ----- */
+/* -------------button styles ----- */
 .btn-primary {
     background-color: #FF900E;
     color: #fff;
@@ -82,8 +88,11 @@ body {
 
 /* -------------------------------------------------
 header styes 
+header styes 
+header styes 
 ------------------------------------------------- */
 
+/* nav style  */
 /* nav style  */
 header {
     background-color: #e88b2115;
@@ -118,6 +127,7 @@ nav>h1 {
 
 
 /* ------------------------header details--------------------------  */
+/* ------------------------header details--------------------------  */
 
 .header-details {
     padding: 20px 20%;
@@ -137,6 +147,7 @@ nav>h1 {
 
 
 /*----------------- banner style ------------ */
+/*----------------- banner style ------------ */
 
 
 .banner>img {
@@ -148,9 +159,11 @@ nav>h1 {
 
 /* ------------------------------------------------------------------------
 main section styles -
+main section styles -
+main section styles -
 --------------------------------------------------------------*/
-main {}
 
+/* -------------------quick features styles  */
 /* -------------------quick features styles  */
 .quick-feature {
     display: flex;
@@ -178,6 +191,8 @@ main {}
 }
 
 /* -------------------feature lists style -------------------- */
+/* -------------------feature lists style -------------------- */
+
 .feature-section {
     margin-top: 100px;
     display: flex;
@@ -214,6 +229,7 @@ main {}
 
 
 /*----------------- some facts or events  styles--------------------- */
+/*----------------- some facts or events  styles--------------------- */
 
 .tasks {
     display: flex;
@@ -237,7 +253,7 @@ main {}
 
 
 }
-
+ /* animation uses  */
 @keyframes task-makup {
     0%{
        transform: rotate(-90deg);
@@ -252,17 +268,17 @@ main {}
     animation: task-makup 1.5s ease-in-out .3s 1;
 }
 
+
 /* team members -------------------- */
+/* team members -------------------- */
+
 .team-secton{
     display: flex;
     max-width: 90%;
     margin: 5% auto;
 }
 
-.title{
-    text-align: center;
-    font-size: 2.4rem;
-}
+
 .team-content{
     display: flex;
     align-items: center;
@@ -279,6 +295,8 @@ main {}
 
 
 /* --------------------------our sponsors style ------------------- */
+/* --------------------------our sponsors style ------------------- */
+
 .sponsor-header {
     text-align: center;
     width: 50%;
@@ -301,6 +319,8 @@ main {}
 
 /*-------------------------------------------------------------
  footer styles -
+ footer styles -
+ footer styles -
  ------------------------------------------------------ */
 footer {
     background-color: #131313;
@@ -313,14 +333,14 @@ footer {
 /*------------------------------
  ---------------------------------------------
                    responsive design  for Mobile
+                   responsive design  for Mobile
+                   responsive design  for Mobile
     --------------------------------------------
     ---------------------------------------------- */
 
-.hide {
-    display: none;
-}
-
 @media screen and (max-width:576px) {
+/* nav styles  */
+/* nav styles  */
 
     nav{
         flex-direction: column;
@@ -338,6 +358,11 @@ footer {
     .menu{
         flex-direction: column;
     }
+
+
+    /* header section details  */
+    /* header section details  */
+
     .section-header {
         font-size: 2rem;
         text-align: center;
@@ -348,6 +373,10 @@ footer {
     .header-details{
         padding: 10px;
     }
+
+    /* main section  */
+    /* main section  */
+    /* main section  */
 
     .quick-feature {
         flex-direction: column;
@@ -415,6 +444,8 @@ footer {
 /*------------------------------
  ---------------------------------------------
                    responsive design  for Tablet
+                   responsive design  for Tablet
+                   responsive design  for Tablet
     --------------------------------------------
     ---------------------------------------------- */
 @media screen and (min-width:577px) and (max-width:992px) {
@@ -438,7 +469,9 @@ footer {
     }
 
 }
-
+ /* both mobile and tablet  */
+ /* both mobile and tablet  */
+ /* both mobile and tablet  */
 @media screen and (max-width:992px) {
     .fact-section>h2 {
         text-align: center;
