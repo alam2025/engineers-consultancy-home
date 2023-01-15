@@ -191,6 +191,9 @@ main {}
     padding: 10px;
 
 }
+.f-title{
+    font-size: 1.5rem;
+}
 
 .feature-list {
     max-width: 40%;
@@ -233,6 +236,7 @@ main {}
 
 
 }
+
 @keyframes task-makup {
     0%{
        transform: rotate(-90deg);
@@ -246,6 +250,32 @@ main {}
 .task:hover{
     animation: task-makup 1.5s ease-in-out .3s 1;
 }
+
+/* team members -------------------- */
+.team-secton{
+    display: flex;
+    max-width: 90%;
+    margin: 5% auto;
+}
+
+.title{
+    text-align: center;
+    font-size: 2.4rem;
+}
+.team-content{
+    display: flex;
+    align-items: center;
+}
+.team-content>img{
+    max-width: 40%;
+    border-radius: 5px;
+}
+
+.team-title{
+    padding: 10px;
+    line-height: 45px;
+}
+
 
 /* --------------------------our sponsors style ------------------- */
 .sponsor-header {
@@ -349,6 +379,11 @@ footer {
         width: 100% !important;
         text-align: center;
 
+    }
+
+    .team-secton{
+        flex-direction: column;
+        gap: 20px;
     }
     .sponsor-header{
         width: 100%;
